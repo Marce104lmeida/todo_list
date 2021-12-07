@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #12121f;
+    color: white;
+}
+.content{
+width: 50%;
+margin: 0 auto;
+
+
+}
+.content h1{
+    text-align: center;
+
+}
+.containerTask{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    
+    
+  
+
+}
+
+.containerTask input{
+    width: 80%;
+    margin: auto;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkgray;
+
+}
+
+.containerTask button{
+    width: 15%;
+    margin: auto;
+    height: 39px;
+    border-radius: 5px;
+    float: right;
+    border: none;
+    background-color: cadetblue;
+
+}
+#list{
+    width: 95%;
+    margin: auto;
+    height: 45px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.item button{
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+}
+.content h1{
+    text-align: center;
+    display: inline-block;
+    width: 85%;
+   /* border: 1px solid;*/
+    margin: 35px 0 35px;
+}
+.item-container{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+    /*border: 1px solid white;*/
+
+}
+.item{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: cornflowerblue;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+  
+}
+.apagar{
+    display: inline-block;
+    float: right;
+    margin-right: -35px;
+    
+
+}
+.descr{
+    display: inline-block;
+    margin-top: 7px; 
+    font-size: 14px;
+}
+.item:hover i{
+    cursor: pointer;
+    margin-right: 5px;
+    transition:  all 0.4s ease;
+}
